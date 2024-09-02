@@ -1,0 +1,6 @@
+mkdir myproject
+cd myproject
+git init
+touch file1
+git add file1
+git commit -m "adding file1"
