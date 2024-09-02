@@ -1,6 +1,6 @@
 mkdir myproject
 cd myproject
-git init
+git init #ls -la to display the hidden files
 touch file1
 git add file1
 git commit -m "adding file1"
