@@ -17,6 +17,7 @@ git branch checkout b500
 touch file4 -> git add file4 -> git commit -m "added file4"
 git branch checkout main
 git branch merge main b5oo # from main branch only can merge to b500
+git branch -d b500 #deleting b500 branch
 touch .gitignore
 nano .gitignore # .gitignore is a page where file names added to be ignored prvided those files must be committed.
 git add .gitignore
