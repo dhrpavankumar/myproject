@@ -4,3 +4,21 @@ git init
 touch file1
 git add file1
 git commit -m "adding file1"
+git branch -M manin
+git remote add origin https://github.com/dhrpavankumar/myproject.git
+git push -u origin main
+git fetch origin main # if there are any changes between origin and main (change will be displayed). If there is no change nothing will be displayed.
+git pull origin main
+git status
+git log
+git branch
+git branch b500
+git branch checkout b500
+touch file4 -> git add file4 -> git commit -m "added file4"
+git branch checkout main
+git branch merge main b5oo # from main branch only can merge to b500
+touch .gitignore
+nano .gitignore # .gitignore is a page where file names added to be ignored prvided those files must be committed.
+git add .gitignore
+git commit -m ".gitignore content is committed"
+
